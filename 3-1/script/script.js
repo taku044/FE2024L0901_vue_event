@@ -7,7 +7,7 @@ new Vue({
         };
     },
     method: {
-        handClick(){
+        handleClick(){
             this.text='button pushed';
         }
     }
