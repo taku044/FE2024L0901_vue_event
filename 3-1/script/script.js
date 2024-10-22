@@ -2,8 +2,13 @@
 new Vue({
     el: '#app',
     data() {
-        return {
-            
+        return{
+            text:'hello Vue.js'
         };
+    },
+    method: {
+        handClick(){
+            this.text='button pushed';
+        }
     }
 });
