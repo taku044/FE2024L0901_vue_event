@@ -6,7 +6,7 @@ new Vue({
             text:'hello Vue.js'
         };
     },
-    method: {
+    methods: {
         handleClick(){
             this.text='button pushed';
         }
