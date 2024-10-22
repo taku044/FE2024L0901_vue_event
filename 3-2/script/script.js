@@ -4,7 +4,7 @@ new Vue({
     el: '#app',
     data() {
         return{
-           count:0
+           count: 0
         };
     },
     methods: {
